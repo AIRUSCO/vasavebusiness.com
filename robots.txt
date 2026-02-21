@@ -16,6 +16,13 @@ Allow: /services/consultancy.html
 Allow: /uk-customs.html
 Allow: /cookies-policy.pdf
 Allow: /privacy-policy.pdf
+Allow: /privacy-policies.html
+Allow: /PRIVACY%20POLICY%20VBS%20PAYROLL.pdf
+Allow: /TERMS%20AND%20CONDITIONS%20VBS%20PAYROLL.pdf
+Allow: /vbspayroll-privacy.pdf
+Allow: /terms-and-conditions.html
 Allow: /terms&amp;conditions.pdf
+Allow: /Vasave_VAT_Filer_Privacy_Policy.pdf
+Allow: /Vasave_VAT_Filer_Terms_and_Conditions.pdf
 
 Sitemap: https://www.vasavebusiness.com/sitemap.xml
