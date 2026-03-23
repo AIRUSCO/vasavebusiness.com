@@ -1,4 +1,7 @@
 User-Agent: *
+Disallow: /?feed=
+Disallow: /?p=
+Disallow: /?cat=
 Disallow: 
 Allow: /uk-customs/consultation.html
 Allow: /uk-customs/training.html

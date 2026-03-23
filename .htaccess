@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Redirect /index.html to /
+RewriteCond %{THE_REQUEST} /index\.html
+RewriteRule ^index\.html$ https://vasavebusiness.com/ [R=301,L]
+
+# Optional: Redirect other .html to without extension if needed
+# But since links are cleaned, and assuming server handles it, or add more rules
+
+# Redirect /contact.html to /contact
+RewriteCond %{THE_REQUEST} /contact\.html
+RewriteRule ^contact\.html$ https://vasavebusiness.com/contact [R=301,L]
+
+# Similarly for others
+RewriteCond %{THE_REQUEST} /services\.html
+RewriteRule ^services\.html$ https://vasavebusiness.com/services [R=301,L]
+
+RewriteCond %{THE_REQUEST} /about\.html
+RewriteRule ^about\.html$ https://vasavebusiness.com/about [R=301,L]
+
+# Add more as needed for other pages
