@@ -1,130 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
   <loc>https://vasavebusiness.com/</loc>
   <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/index.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/about.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/kickstart-scheme.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/services.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/contact.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/uk-customs.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/cookies-policy.pdf</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://vasavebusiness.com/privacy-policy.pdf</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>1.0</priority>
 </url>
 
 <url>
-  <loc>https://vasavebusiness.com/privacy-policies.html</loc>
-  <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  <priority>0.50</priority>
+  <loc>https://vasavebusiness.com/about</loc>
+  <priority>0.8</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/terms-and-conditions.html</loc>
-  <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  <priority>0.50</priority>
+  <loc>https://vasavebusiness.com/services</loc>
+  <priority>0.8</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/PRIVACY%20POLICY%20VBS%20PAYROLL.pdf</loc>
-  <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  <priority>0.50</priority>
+  <loc>https://vasavebusiness.com/contact</loc>
+  <priority>0.8</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/TERMS%20AND%20CONDITIONS%20VBS%20PAYROLL.pdf</loc>
-  <lastmod>2026-02-21T00:00:00+00:00</lastmod>
-  <priority>0.50</priority>
+  <loc>https://vasavebusiness.com/privacy-policies</loc>
+  <priority>0.5</priority>
 </url>
-  <url>
-    <loc>https://vasavebusiness.com/Vasave_VAT_Filer_Privacy_Policy.pdf</loc>
-    <priority>0.2</priority>
-  </url>
-  <url>
-    <loc>https://vasavebusiness.com/Vasave_VAT_Filer_Terms_and_Conditions.pdf</loc>
-    <priority>0.2</priority>
-  </url>
-  <priority>0.50</priority>
-</url>
+
 <url>
-  <loc>https://vasavebusiness.com/terms&amp;conditions.pdf</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://vasavebusiness.com/terms-and-conditions</loc>
+  <priority>0.5</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/cloud.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/cloud</loc>
+  <priority>0.6</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/infrastructure.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/infrastructure</loc>
+  <priority>0.6</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/cybersecurity.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/cybersecurity</loc>
+  <priority>0.6</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/consultancy.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/consultancy</loc>
+  <priority>0.6</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/cloud/google-workspace.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/cloud/google-workspace</loc>
+  <priority>0.5</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/services/infrastructure/kaspersky.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/infrastructure/kaspersky</loc>
+  <priority>0.5</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/uk-customs/consultation.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/cybersecurity/cyber-essentials</loc>
+  <priority>0.5</priority>
 </url>
+
 <url>
-  <loc>https://vasavebusiness.com/uk-customs/training.html</loc>
-  <lastmod>2021-05-18T15:11:32+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://vasavebusiness.com/services/cybersecurity/cyber-essentials-plus</loc>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https://vasavebusiness.com/uk-customs</loc>
+  <priority>0.6</priority>
+</url>
+
+<url>
+  <loc>https://vasavebusiness.com/uk-customs/consultation</loc>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https://vasavebusiness.com/uk-customs/training</loc>
+  <priority>0.5</priority>
+</url>
+
+<url>
+  <loc>https://vasavebusiness.com/about-us/what-we-stand-for</loc>
+  <priority>0.5</priority>
 </url>
 
 </urlset>
