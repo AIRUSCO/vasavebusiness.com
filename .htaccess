@@ -1,4 +1,6 @@
-RewriteEngine On
+# Strip tracking parameters from all URLs
+RewriteCond %{QUERY_STRING} trk= [NC]
+RewriteRule ^(.*)$ /$1? [R=301,L]
 
 # Redirect /index.html to /
 RewriteCond %{THE_REQUEST} /index\.html
@@ -24,12 +26,6 @@ RewriteCond %{QUERY_STRING} ^m= [OR]
 RewriteCond %{QUERY_STRING} ^p=
 RewriteRule ^$ /? [R=301,L]
 
-# Redirect ?trk= tracking parameters
-RewriteCond %{QUERY_STRING} ^trk= [NC]
-RewriteRule ^$ /? [R=301,L]
-
 # Strip all remaining query parameters from any URL to prevent duplicates
 RewriteCond %{QUERY_STRING} .+
 RewriteRule ^(.*)$ /$1? [R=301,L]
-
-# Add more as needed for other pages
