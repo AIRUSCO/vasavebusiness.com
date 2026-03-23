@@ -23,7 +23,8 @@ RewriteRule ^about\.html$ https://vasavebusiness.com/about [R=301,L]
 # Redirect parameter URLs to clean URLs
 RewriteCond %{QUERY_STRING} ^cat= [OR]
 RewriteCond %{QUERY_STRING} ^m= [OR]
-RewriteCond %{QUERY_STRING} ^p=
+RewriteCond %{QUERY_STRING} ^p= [OR]
+RewriteCond %{QUERY_STRING} ^page_id=
 RewriteRule ^$ /? [R=301,L]
 
 # Strip all remaining query parameters from any URL to prevent duplicates
