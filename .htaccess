@@ -18,4 +18,17 @@ RewriteRule ^services\.html$ https://vasavebusiness.com/services [R=301,L]
 RewriteCond %{THE_REQUEST} /about\.html
 RewriteRule ^about\.html$ https://vasavebusiness.com/about [R=301,L]
 
+# Redirect parameter URLs to clean URLs
+# Redirect ?p= to /
+RewriteCond %{QUERY_STRING} ^p= [NC]
+RewriteRule ^$ /? [R=301,L]
+
+# Redirect ?cat= to /
+RewriteCond %{QUERY_STRING} ^cat= [NC]
+RewriteRule ^$ /? [R=301,L]
+
+# Redirect ?trk= to /
+RewriteCond %{QUERY_STRING} ^trk= [NC]
+RewriteRule ^$ /? [R=301,L]
+
 # Add more as needed for other pages
