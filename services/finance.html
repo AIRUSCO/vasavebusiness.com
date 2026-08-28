@@ -148,11 +148,11 @@
                 <div class="full blog_img_popular">
                     <img src="/certificates/L1_V.png"
                          alt="Xero Level 1 Certificate"
-                         class="img-responsive">
+                         class="img-responsive xero-certificate-img">
 
-                    <a href="/certificates/L1_XERO.pdf" target="_blank">
-                        <h5 class="rounded-h4"
-                            style="margin: 15px auto 0;">
+                    <a href="/certificates/L1_XERO.pdf" target="_blank" class="xero-certificate-link">
+                        <h5 class="rounded-h4 xero-certificate-btn">
+                           
                             XERO LEVEL 1 CERTIFIED ASSOCIATE
                         </h5>
                     </a>
@@ -476,7 +476,46 @@
     <script src="../js/custom.js"></script>
 	<script>
 	/* counter js */
+/* Make the entire link clickable */
+.xero-certificate-link {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    margin: 15px auto 0;
+    text-decoration: none !important;
+}
 
+/* Certificate button */
+.xero-certificate-btn {
+    white-space: nowrap !important;
+    text-align: center;
+    margin: 0 !important;
+    padding: 20px 15px !important;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+/* Mouse hover */
+.xero-certificate-link:hover .xero-certificate-btn {
+    background-color: #355f91 !important;
+    color: #ffffff !important;
+
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+/* When user clicks */
+.xero-certificate-link:active .xero-certificate-btn {
+    transform: translateY(0);
+    background-color: #24466d !important;
+}
+
+/* Keyboard accessibility */
+.xero-certificate-link:focus .xero-certificate-btn {
+    background-color: #355f91 !important;
+    color: #ffffff !important;
+}
 (function ($) {
 	$.fn.countTo = function (options) {
 		options = options || {};
